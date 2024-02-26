@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            background-color: black;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+         .flex-container2{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+         }
+
+         h2{
+            color: white;
+         }
+
+         nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+         }
+
+         nav li{
+            margin-right: 20px;
+         }
+         nav a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+         }
+
+         footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width:100%;
+         }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Welcome to Software Design Website</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="flex-container">
+            <h4><b>About Us</b></h4>
+            <h5>We are a company dedicated to providing excellent services to our customers</h5>
+            <img src="https://images.unsplash.com/photo-1707343844152-6d33a0bb32c3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="company logo" width="600" height="400">
+        </section>
+        <h4 style="text-align: center;"><b>Our Services</b></h4>
+        <section class="flex-container2">
+            <section class="flex-container">
+                <h4><b>Web Development</b></h4>
+                <h5>We specialise in creating responsive and user-friendly websites.</h5>
+                <img src="https://images.unsplash.com/photo-1708781055870-5ac2a90bbef0?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo" width="600" height="400">
+            </section>
+            <section class="flex-container">
+                <h4><b>Graphic Design</b></h4>
+                <h5>Our talented designers can bring your ideas to life with stunning visuals.</h5>
+                <img src="https://images.unsplash.com/photo-1508763377918-0f12233d2201?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo" width="600" height="400">
+            </section>
+        </section>
+
+        <footer>
+            &copy;The Nthabi company. All rights reserved
+        </footer>
+    </main>
+</body>
